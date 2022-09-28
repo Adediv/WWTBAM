@@ -4,7 +4,7 @@
 body{
         color: #ffffff;
         font-family: sans-serif;
-        background-image: url(/img/welcome-background-img.jpg);
+        background-image: url(welcome-background-img.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -23,27 +23,26 @@ button{
     height: 90px;
     width: 110px;
     border-radius: 50%;
-    border: 2px solid #474232;
-    background-color: #CAC1B4;
-    color: #DD9B91;
+    border: none !important;
+    background-color:black;
+    color: white;
     font-weight: 900;
     font-size: 1.4em;
     animation: rotate 3s infinite;
 }
 @keyframes rotate {
-    0%{scale: 100%;}
+    0%{scale: 50%;}
     50%{scale: 80%;}
-    100%{rotate: 100;}
+    100%{rotate: 50;}
 }
 
 /* responsiveness */
 @media all and (max-width:320px){
     body{
-        background-image: url(/img/welcome-background-mobile.jpg);
+        background-image: url(welcome-background-mobile.jpg);
     }
-    .btn-div{
-        border: 1px solid #ffffff;
-        border-radius: 50em;
+    .div1a{
+
         padding: 0.1em;
     }
     button{
@@ -60,7 +59,7 @@ button{
 }
 @media all and (min-width:321px) and (max-width:375px){
     body{
-        background-image: url(/img/welcome-background-mobile.jpg);
+        background-image: url(welcome-background-mobile.jpg);
     }
     .btn-div{
         border: 1px solid #ffffff;
@@ -81,7 +80,7 @@ button{
 }
 @media all and (min-width:376px) and (max-width:425px){
     body{
-        background-image: url(/img/welcome-background-mobile.jpg);
+        background-image: url(welcome-background-mobile.jpg);
     }
     .btn-div{
         border: 1px solid #ffffff;
@@ -102,7 +101,7 @@ button{
 }
 @media all and (min-width:426px) and (max-width:720px){
     body{
-        background-image: url(/img/welcome-background-mobile.jpg);
+        background-image: url(welcome-background-mobile.jpg);
     }
     .btn-div{
         border: 1px solid #ffffff;
