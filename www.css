@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+body{
+        color: #ffffff;
+        font-family: sans-serif;
+        background-image: url(/img/welcome-background-img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        /* overflow: hidden; */
+}
+
+.div1{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    position: relative;
+    height: 90px;
+    width: 110px;
+    border-radius: 50%;
+    border: 2px solid #474232;
+    background-color: #CAC1B4;
+    color: #DD9B91;
+    font-weight: 900;
+    font-size: 1.4em;
+    animation: rotate 3s infinite;
+}
+@keyframes rotate {
+    0%{scale: 100%;}
+    50%{scale: 80%;}
+    100%{rotate: 100;}
+}
+
+/* responsiveness */
+@media all and (max-width:320px){
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+    }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
+    }
+    button{
+        height: 1.7em;
+        width: 12em;
+        border-radius: 50em;
+        background-color: #8EE71D;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.4em;
+        border: none;
+        animation: none;
+    }
+}
+@media all and (min-width:321px) and (max-width:375px){
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+    }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
+    }
+    button{
+        height: 1.8em;
+        width: 14em;
+        border-radius: 50em;
+        background-color: #8EE71D;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.4em;
+        border: none;
+        animation: none;
+    }
+}
+@media all and (min-width:376px) and (max-width:425px){
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+    }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
+    }
+    button{
+        height: 1.8em;
+        width: 14em;
+        border-radius: 50em;
+        background-color: #8EE71D;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.4em;
+        border: none;
+        animation: none;
+    }
+}
+@media all and (min-width:426px) and (max-width:720px){
+    body{
+        background-image: url(/img/welcome-background-mobile.jpg);
+    }
+    .btn-div{
+        border: 1px solid #ffffff;
+        border-radius: 50em;
+        padding: 0.1em;
+    }
+    button{
+        height: 1.8em;
+        width: 15em;
+        border-radius: 50em;
+        background-color: #8EE71D;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.4em;
+        border: none;
+        animation: none;
+    }
+}
+@media all and (min-width:721px) and (max-width:768px){
+    button{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        border-radius: 50em;
+        background-color: #CAC1B4;
+        color: #DD9B91;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+}
+@media all and (min-width:769px) and (max-width:820px){
+    button{
+        position: relative;
+        height: 120px;
+        width: 120px;
+        border-radius: 50em;
+        background-color: #CAC1B4;
+        color: #DD9B91;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+}
+@media all and (min-width:821px) and (max-width:912px){
+    button{
+        position: relative;
+        height: 120px;
+        width: 120px;
+        border-radius: 50em;
+        background-color: #CAC1B4;
+        color: #DD9B91;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+}
+@media all and (min-width:912px) and (max-width:1024px){
+    button{
+        position: relative;
+        height: 130px;
+        width: 130px;
+        border-radius: 50em;
+        background-color: #CAC1B4;
+        color: #DD9B91;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+}
