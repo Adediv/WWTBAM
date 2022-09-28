@@ -174,7 +174,7 @@ button{
 .body2{
     color: #ffffff;
     font-family: sans-serif;
-    background-image: url(/img/game-background.jpg);
+    background-image: url(game-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,7 +187,7 @@ button{
 }
 #scoreboard{
     border: 5px solid #2C0033;
-    background-image: url(/img/video-bg.jpg);
+    background-image: url(video-bg.jpg);
     height: 90vh;
     text-align: center;
     justify-content: center;
